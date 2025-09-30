@@ -1793,3 +1793,357 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.09.30-17.50.09:331][654]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.09.30-17.50.09:331][654]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.09.30-17.50.09:331][654]AssetCheck: /Game/Lec07_Exercise1/Lec07_Exc1 Validating asset
+[2025.09.30-17.51.14:002][122]LogShaderCompilers: Display: ================================================
+[2025.09.30-17.51.14:002][122]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.30-17.51.14:002][122]LogShaderCompilers: Display: Total job queries 505, among them cache hits 53 (10.50%), DDC hits 366 (72.48%), Duplicates 73 (14.46%)
+[2025.09.30-17.51.14:002][122]LogShaderCompilers: Display: Tracking 379 distinct input hashes that result in 267 distinct outputs (70.45%)
+[2025.09.30-17.51.14:002][122]LogShaderCompilers: Display: RAM used: 3.50 MiB of 819.20 MiB budget. Usage: 0.43%
+[2025.09.30-17.51.14:002][122]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.30-17.51.14:002][122]LogShaderCompilers: Display: Shaders Compiled: 13
+[2025.09.30-17.51.14:002][122]LogShaderCompilers: Display: Jobs assigned 13, completed 13 (100%)
+[2025.09.30-17.51.14:002][122]LogShaderCompilers: Display: Average time worker was idle: 8.23 s
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display: Job execution time: average 1.76 s, max 2.88 s
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display: Job life time (pending + execution): average 1.81 s, max 2.99
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display: Shader code size: total 121.043 KiB, numShaders 13, average 9.311 KiB, min 5.738 KiB, max 12.602 KiB
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 14.12 s
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.15%
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display: Jobs were issued in 13 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display: Average processing rate: 0.92 jobs/sec
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display: Total thread time: 17.098 s
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display: Total thread preprocess time: 33.528 s
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display: Percentage time preprocessing: 196.10%
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display: Effective parallelization: 1.21 (times faster than compiling all shaders on one thread). Compare with number of workers: 11 - 0.110070
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 2.51 sec, max 2.51 sec, min 2.51 sec)
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    3 times, average 2.12 sec, max 2.27 sec, min 1.93 sec)
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 0.97 sec, max 1.15 sec, min 0.67 sec)
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.79 sec, max 0.80 sec, min 0.78 sec)
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 37.28% of total time (compiled    3 times, average 2.12 sec, max 2.27 sec, min 1.93 sec)
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 34.11% of total time (compiled    6 times, average 0.97 sec, max 1.15 sec, min 0.67 sec)
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 14.70% of total time (compiled    1 times, average 2.51 sec, max 2.51 sec, min 2.51 sec)
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.91% of total time (compiled    3 times, average 0.79 sec, max 0.80 sec, min 0.78 sec)
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display:                                             FDebugViewModePS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display: === Material stats ===
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display: Materials Translated:    146
+[2025.09.30-17.51.14:003][122]LogShaderCompilers: Display: Material Total Translate Time: 0.27 s
+[2025.09.30-17.51.14:004][122]LogShaderCompilers: Display: Material Translation Only: 0.09 s (35%)
+[2025.09.30-17.51.14:004][122]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.09.30-17.51.14:004][122]LogShaderCompilers: Display: Material Cache Hits: 11 (8%)
+[2025.09.30-17.51.14:004][122]LogShaderCompilers: Display: ================================================
+[2025.09.30-17.52.01:293][638]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.09.30-17.52.01:303][638]LogStreaming: Display: FlushAsyncLoading(691): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.30-17.52.01:726][638]LogChaosDD: Creating Chaos Debug Draw Scene for world Lec4_Exc2
+[2025.09.30-17.52.01:744][638]LogWorldPartition: ULevel::OnLevelLoaded(Lec4_Exc2)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.09.30-17.52.01:744][638]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.30-17.52.01:744][638]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Lec04_Exercise2/Lec4_Exc2.Lec4_Exc2, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.30-17.52.01:889][638]LogWorldPartition: Display: WorldPartition initialize took 144.821 ms (total: 1.65 sec)
+[2025.09.30-17.52.01:897][638]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Lec04_Exercise2/Lec4_Exc2.Lec4_Exc2
+[2025.09.30-17.52.01:897][638]Cmd: MAP LOAD FILE="../../../../../../Users/legos/OneDrive/Documents/Unreal Projects/UnrealRep/MyProject/Content/Lec04_Exercise2/Lec4_Exc2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.30-17.52.01:938][638]LogWorld: UWorld::CleanupWorld for Lec07_Exc1, bSessionEnded=true, bCleanupResources=true
+[2025.09.30-17.52.01:939][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.30-17.52.01:981][638]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.30-17.52.01:985][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2025.09.30-17.52.01:990][638]LogWorld: UWorld::CleanupWorld for Lec4_Exc2, bSessionEnded=true, bCleanupResources=true
+[2025.09.30-17.52.01:990][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.30-17.52.01:990][638]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Lec04_Exercise2/Lec4_Exc2.Lec4_Exc2
+[2025.09.30-17.52.02:037][638]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2025.09.30-17.52.02:075][638]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2025.09.30-17.52.02:088][638]LogAudio: Display: Audio Device (ID: 1) registered with world 'Lec4_Exc2'.
+[2025.09.30-17.52.02:088][638]LogChaosDD: Creating Chaos Debug Draw Scene for world Lec4_Exc2
+[2025.09.30-17.52.02:091][638]LogWorldPartition: ULevel::OnLevelLoaded(Lec4_Exc2)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.09.30-17.52.02:091][638]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.30-17.52.02:091][638]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Lec04_Exercise2/Lec4_Exc2.Lec4_Exc2, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.30-17.52.03:455][638]LogWorldPartition: Display: WorldPartition initialize took 1.36 sec (total: 3.02 sec)
+[2025.09.30-17.52.03:796][638]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.30-17.52.03:869][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2025.09.30-17.52.03:883][638]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.30-17.52.03:885][638]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.961ms to complete.
+[2025.09.30-17.52.05:417][639]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.30-17.52.09:914][787]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.30-17.52.09:930][787]LogContentBundle: [Lec4_Exc2(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.09.30-17.52.09:931][787]LogWorldPartition: Display: GenerateStreaming for 'Lec4_Exc2' started...
+[2025.09.30-17.52.09:939][787]LogWorldPartition: Display: GenerateStreaming for 'Lec4_Exc2' took 9.196 ms
+[2025.09.30-17.52.09:940][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.30-17.52.09:940][787]LogPlayLevel: Creating play world package: /Game/Lec04_Exercise2/UEDPIE_0_Lec4_Exc2
+[2025.09.30-17.52.09:981][787]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.09.30-17.52.09:992][787]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 11.159 ms
+[2025.09.30-17.52.09:993][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052076s)
+[2025.09.30-17.52.09:993][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lec04_Exercise2/Lec4_Exc2.Lec4_Exc2 to /Game/Lec04_Exercise2/UEDPIE_0_Lec4_Exc2.Lec4_Exc2 (0.052199s)
+[2025.09.30-17.52.10:042][787]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2025.09.30-17.52.10:052][787]LogChaosDD: Creating Chaos Debug Draw Scene for world Lec4_Exc2
+[2025.09.30-17.52.10:056][787]LogWorldPartition: ULevel::OnLevelLoaded(Lec4_Exc2)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.30-17.52.10:056][787]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.30-17.52.10:056][787]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Lec04_Exercise2/UEDPIE_0_Lec4_Exc2.Lec4_Exc2, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.30-17.52.10:056][787]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.30-17.52.10:072][787]LogWorldPartition: Display: WorldPartition initialize took 15.657 ms (total: 3.03 sec)
+[2025.09.30-17.52.10:072][787]LogPlayLevel: PIE: World Init took: (0.019381s)
+[2025.09.30-17.52.10:073][787]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.09.30-17.52.10:073][787]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.30-17.52.10:073][787]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.30-17.52.10:073][787]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.30-17.52.10:073][787]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.30-17.52.10:073][787]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.30-17.52.10:073][787]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.30-17.52.10:074][787]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.30-17.52.10:074][787]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.30-17.52.10:074][787]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.30-17.52.10:074][787]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.30-17.52.10:074][787]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.30-17.52.10:078][787]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.30-17.52.10:106][787]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.09.30-17.52.10:106][787]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.30-17.52.10:106][787]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.30-17.52.10:106][787]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.30-17.52.10:109][787]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.09.30-17.52.10:109][787]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.09.30-17.52.10:115][787]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.09.30-17.52.10:115][787]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.09.30-17.52.10:115][787]LogInit: FAudioDevice initialized with ID 9.
+[2025.09.30-17.52.10:115][787]LogAudio: Display: Audio Device (ID: 9) registered with world 'Lec4_Exc2'.
+[2025.09.30-17.52.10:115][787]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.09.30-17.52.10:125][787]LogLoad: Game class is 'BP_GameMode_HUD_C'
+[2025.09.30-17.52.10:131][787]LogWorld: Bringing World /Game/Lec04_Exercise2/UEDPIE_0_Lec4_Exc2.Lec4_Exc2 up for play (max tick rate 60) at 2025.09.30-13.52.10
+[2025.09.30-17.52.10:131][787]LogWorld: Bringing up level for play took: 0.003971
+[2025.09.30-17.52.10:135][787]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2025.09.30-17.52.10:160][787]LogStreaming: Display: FlushAsyncLoading(894,893,892,891,890,889,888,887,886,885,884,883,882,881,880,879,878,877,876,875,874,873,872,871,870,869,868,867,866,865,864,863,862,861,860,859,858,857,856,855,854,853,852,851): 44 QueuedPackages, 0 AsyncPackages
+[2025.09.30-17.52.10:569][787]PIE: Server logged in
+[2025.09.30-17.52.10:574][787]PIE: Play in editor total start time 0.646 seconds.
+[2025.09.30-17.52.10:823][788]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.30-17.52.18:588][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.30-17.52.18:588][200]LogWorld: BeginTearingDown for /Game/Lec04_Exercise2/UEDPIE_0_Lec4_Exc2
+[2025.09.30-17.52.18:617][200]LogWorld: UWorld::CleanupWorld for Lec4_Exc2, bSessionEnded=true, bCleanupResources=true
+[2025.09.30-17.52.18:618][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.30-17.52.18:618][200]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Lec04_Exercise2/UEDPIE_0_Lec4_Exc2.Lec4_Exc2
+[2025.09.30-17.52.18:626][200]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.30-17.52.18:633][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.30-17.52.18:710][200]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.30-17.52.18:712][200]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.09.30-17.52.18:712][200]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2025.09.30-17.52.18:718][200]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2025.09.30-17.52.18:728][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.30-17.52.18:754][200]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2025.09.30-17.52.18:937][201]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2025.09.30-17.53.16:795][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2025.09.30-17.53.17:079][ 24]LogStreaming: Display: FlushAsyncLoading(895): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.30-17.53.17:201][ 24]LogChaosDD: Creating Chaos Debug Draw Scene for world NewMap
+[2025.09.30-17.53.17:215][ 24]LogWorldPartition: ULevel::OnLevelLoaded(NewMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.09.30-17.53.17:215][ 24]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.30-17.53.17:215][ 24]LogWorldPartition: UWorldPartition::Initialize : World = /Game/NewMap.NewMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.30-17.53.17:374][ 24]LogWorldPartition: Display: WorldPartition initialize took 158.725 ms (total: 3.19 sec)
+[2025.09.30-17.53.17:378][ 24]LogAssetEditorSubsystem: Opening Asset editor for World /Game/NewMap.NewMap
+[2025.09.30-17.53.17:379][ 24]Cmd: MAP LOAD FILE="../../../../../../Users/legos/OneDrive/Documents/Unreal Projects/UnrealRep/MyProject/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.30-17.53.17:440][ 24]LogWorld: UWorld::CleanupWorld for Lec4_Exc2, bSessionEnded=true, bCleanupResources=true
+[2025.09.30-17.53.17:441][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.30-17.53.17:441][ 24]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Lec04_Exercise2/Lec4_Exc2.Lec4_Exc2
+[2025.09.30-17.53.17:495][ 24]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.30-17.53.17:518][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2025.09.30-17.53.17:528][ 24]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.30-17.53.17:529][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.30-17.53.17:529][ 24]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/NewMap.NewMap
+[2025.09.30-17.53.17:589][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2025.09.30-17.53.17:649][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.09.30-17.53.17:659][ 24]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewMap'.
+[2025.09.30-17.53.17:659][ 24]LogChaosDD: Creating Chaos Debug Draw Scene for world NewMap
+[2025.09.30-17.53.17:664][ 24]LogWorldPartition: ULevel::OnLevelLoaded(NewMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.09.30-17.53.17:664][ 24]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.30-17.53.17:664][ 24]LogWorldPartition: UWorldPartition::Initialize : World = /Game/NewMap.NewMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.30-17.53.19:482][ 24]LogWorldPartition: Display: WorldPartition initialize took 1.81 sec (total: 5.01 sec)
+[2025.09.30-17.53.19:815][ 24]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.30-17.53.19:856][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2025.09.30-17.53.19:873][ 24]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.30-17.53.19:874][ 24]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.947ms to complete.
+[2025.09.30-17.53.21:553][ 25]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.30-17.54.15:788][988]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.30-17.54.15:799][988]LogContentBundle: [NewMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.09.30-17.54.15:799][988]LogWorldPartition: Display: GenerateStreaming for 'NewMap' started...
+[2025.09.30-17.54.15:802][988]LogWorldPartition: Display: GenerateStreaming for 'NewMap' took 3.809 ms (total: 13.005 ms)
+[2025.09.30-17.54.15:804][988]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.30-17.54.15:846][988]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2025.09.30-17.54.15:890][988]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.09.30-17.54.15:898][988]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 8.164 ms (total: 19.323 ms)
+[2025.09.30-17.54.15:899][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052889s)
+[2025.09.30-17.54.15:899][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.053005s)
+[2025.09.30-17.54.15:943][988]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2025.09.30-17.54.15:951][988]LogChaosDD: Creating Chaos Debug Draw Scene for world NewMap
+[2025.09.30-17.54.15:954][988]LogWorldPartition: ULevel::OnLevelLoaded(NewMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.30-17.54.15:954][988]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.30-17.54.15:954][988]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_NewMap.NewMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.30-17.54.15:954][988]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.30-17.54.15:968][988]LogWorldPartition: Display: WorldPartition initialize took 13.766 ms (total: 5.02 sec)
+[2025.09.30-17.54.15:968][988]LogPlayLevel: PIE: World Init took: (0.016833s)
+[2025.09.30-17.54.15:969][988]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.09.30-17.54.15:969][988]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.30-17.54.15:969][988]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.30-17.54.15:969][988]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.30-17.54.15:969][988]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.30-17.54.15:969][988]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.30-17.54.15:969][988]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.30-17.54.15:969][988]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.30-17.54.15:969][988]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.30-17.54.15:970][988]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.30-17.54.15:970][988]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.30-17.54.15:970][988]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.30-17.54.15:975][988]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.30-17.54.16:004][988]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.09.30-17.54.16:004][988]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.30-17.54.16:004][988]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.30-17.54.16:004][988]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.30-17.54.16:004][988]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.09.30-17.54.16:004][988]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.09.30-17.54.16:008][988]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.09.30-17.54.16:008][988]LogInit: FAudioDevice initialized with ID 10.
+[2025.09.30-17.54.16:008][988]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.09.30-17.54.16:008][988]LogAudio: Display: Audio Device (ID: 10) registered with world 'NewMap'.
+[2025.09.30-17.54.16:008][988]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.09.30-17.54.16:018][988]LogLoad: Game class is 'GameModeBase'
+[2025.09.30-17.54.16:022][988]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2025.09.30-13.54.16
+[2025.09.30-17.54.16:022][988]LogWorld: Bringing up level for play took: 0.003917
+[2025.09.30-17.54.16:027][988]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2025.09.30-17.54.16:039][988]LogStreaming: Display: FlushAsyncLoading(1107,1106,1105,1104,1103,1102,1101,1100,1099,1098,1097,1096,1095,1094,1093,1092,1091,1090,1089,1088,1087,1086,1085,1084,1083,1082,1081,1080,1079,1078,1077,1076,1075,1074,1073,1072,1071,1069,1070,1068,1065,1066,1067,1064,1063,1062,1061): 47 QueuedPackages, 0 AsyncPackages
+[2025.09.30-17.54.16:438][988]PIE: Server logged in
+[2025.09.30-17.54.16:443][988]PIE: Play in editor total start time 0.644 seconds.
+[2025.09.30-17.54.16:672][989]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.30-17.54.24:476][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.30-17.54.24:476][424]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewMap
+[2025.09.30-17.54.24:502][424]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.30-17.54.24:503][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.30-17.54.24:503][424]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_NewMap.NewMap
+[2025.09.30-17.54.24:508][424]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.30-17.54.24:516][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.30-17.54.24:632][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.30-17.54.24:632][424]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.09.30-17.54.24:632][424]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2025.09.30-17.54.24:638][424]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2025.09.30-17.54.24:662][424]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2025.09.30-17.54.24:945][425]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2025.09.30-17.54.31:267][749]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.09.30-17.54.33:761][870]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2025.09.30-17.54.34:730][870]LogSlate: Window 'Save Content' being destroyed
+[2025.09.30-17.54.34:805][870]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.30-17.54.35:015][870]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/A/BZ/ZZZUE6B734TVUOS09XOW8Y
+[2025.09.30-17.54.35:017][870]LogSavePackage: Moving '../../../../../../Users/legos/OneDrive/Documents/Unreal Projects/UnrealRep/MyProject/Saved/ZZZUE6B734TVUOS09XOW8Y176A694B41741D4179148D9A16D3CEC6.tmp' to '../../../../../../Users/legos/OneDrive/Documents/Unreal Projects/UnrealRep/MyProject/Content/__ExternalActors__/NewMap/A/BZ/ZZZUE6B734TVUOS09XOW8Y.uasset'
+[2025.09.30-17.54.35:050][870]LogFileHelpers: InternalPromptForCheckoutAndSave took 245.342 ms (total: 638.055 ms)
+[2025.09.30-17.54.35:260][870]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.30-17.54.35:260][870]LogContentValidation: Enabled validators:
+[2025.09.30-17.54.35:260][870]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.30-17.54.35:260][870]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.30-17.54.35:260][870]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.30-17.54.35:260][870]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.30-17.54.35:260][870]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.30-17.54.35:260][870]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.30-17.54.35:262][870]AssetCheck: /Game/NewMap Validating asset
+[2025.09.30-17.57.29:198][780]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2025.09.30-17.57.29:206][780]LogAssetEditorSubsystem: Opening Asset editor for World /Game/NewMap.NewMap
+[2025.09.30-17.57.29:206][780]Cmd: MAP LOAD FILE="../../../../../../Users/legos/OneDrive/Documents/Unreal Projects/UnrealRep/MyProject/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.30-17.57.29:265][780]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.30-17.57.29:265][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.30-17.57.29:265][780]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/NewMap.NewMap
+[2025.09.30-17.57.29:348][780]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.30-17.57.29:368][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.09.30-17.57.29:572][780]LogStreaming: Display: FlushAsyncLoading(1108): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.30-17.57.29:582][780]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewMap'.
+[2025.09.30-17.57.29:582][780]LogChaosDD: Creating Chaos Debug Draw Scene for world NewMap
+[2025.09.30-17.57.29:588][780]LogWorldPartition: ULevel::OnLevelLoaded(NewMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.09.30-17.57.29:588][780]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.30-17.57.29:588][780]LogWorldPartition: UWorldPartition::Initialize : World = /Game/NewMap.NewMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.30-17.57.29:968][780]LogWorldPartition: Display: WorldPartition initialize took 381.101 ms (total: 5.41 sec)
+[2025.09.30-17.57.30:327][780]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.30-17.57.30:395][780]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2025.09.30-17.57.30:409][780]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.30-17.57.30:411][780]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.908ms to complete.
+[2025.09.30-17.57.30:977][780]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/__ExternalActors__/NewMap/0/9H/VCTEVXRXLNOW5ZJ8J61MAD) ...
+[2025.09.30-17.57.31:195][781]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.30-17.58.03:677][748]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2025.09.30-17.58.03:776][748]LogStall: Shutdown...
+[2025.09.30-17.58.03:776][748]LogStall: Shutdown complete.
+[2025.09.30-17.58.03:841][748]LogSlate: Window 'MyProject - Unreal Editor' being destroyed
+[2025.09.30-17.58.04:228][748]Cmd: QUIT_EDITOR
+[2025.09.30-17.58.04:228][749]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.09.30-17.58.04:240][749]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.09.30-17.58.04:242][749]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.09.30-17.58.04:242][749]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.09.30-17.58.04:266][749]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.30-17.58.04:267][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.30-17.58.04:267][749]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/NewMap.NewMap
+[2025.09.30-17.58.04:291][749]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.09.30-17.58.04:292][749]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.09.30-17.58.04:295][749]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.09.30-17.58.04:316][749]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.09.30-17.58.04:317][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.30-17.58.04:322][749]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.09.30-17.58.04:322][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.30-17.58.04:334][749]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.09.30-17.58.04:334][749]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.09.30-17.58.04:350][749]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.09.30-17.58.05:132][749]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.09.30-17.58.05:132][749]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.09.30-17.58.05:132][749]LogAudio: Display: Audio Device unregistered from world 'NewMap'.
+[2025.09.30-17.58.05:132][749]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.09.30-17.58.05:134][749]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.09.30-17.58.05:140][749]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.09.30-17.58.05:164][749]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.09.30-17.58.05:164][749]LogAudio: Display: Audio Device Manager Shutdown
+[2025.09.30-17.58.05:169][749]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.09.30-17.58.05:178][749]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.09.30-17.58.05:179][749]LogExit: Preparing to exit.
+[2025.09.30-17.58.05:297][749]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2025.09.30-17.58.05:338][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:339][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:340][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:340][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:340][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:340][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:340][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:340][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:341][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:341][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:341][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:341][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:341][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:341][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:341][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:341][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:341][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:341][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:341][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:341][749]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.05:341][749]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.30-17.58.06:397][749]LogEditorDataStorage: Deinitializing
+[2025.09.30-17.58.06:802][749]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.09.30-17.58.06:915][749]LogExit: Editor shut down
+[2025.09.30-17.58.06:935][749]LogExit: Transaction tracking system shut down
+[2025.09.30-17.58.07:871][749]LogExit: Object subsystem successfully closed.
+[2025.09.30-17.58.07:969][749]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.09.30-17.58.08:511][749]LogMemoryProfiler: Shutdown
+[2025.09.30-17.58.08:512][749]LogNetworkingProfiler: Shutdown
+[2025.09.30-17.58.08:512][749]LoadingProfiler: Shutdown
+[2025.09.30-17.58.08:513][749]LogTimingProfiler: Shutdown
+[2025.09.30-17.58.08:520][749]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.09.30-17.58.08:520][749]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.09.30-17.58.09:228][749]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.09.30-17.58.09:228][749]LogNFORDenoise: NFORDenoise function shutting down
+[2025.09.30-17.58.09:275][749]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.09.30-17.58.09:275][749]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB2689A8E-4459-FBDD-B5FF-E6A9CF5B7E3B%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=ed83fc2f4b07dfbe5c7a8b98fd11a29e%7C8075c71e65514cb68a7f235486bd21d3%7C54998822-ec21-4398-b67a-84d7986ae9af&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.09.30-17.58.09:359][749]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.09.30-17.58.09:388][749]RenderDocPlugin: plugin has been unloaded.
+[2025.09.30-17.58.09:397][749]LogXGEController: Cleaning working directory: C:/Users/legos/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.09.30-17.58.09:412][749]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.09.30-17.58.09:413][749]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.09.30-17.58.09:413][749]LogPakFile: Destroying PakPlatformFile
+[2025.09.30-17.58.12:436][749]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.09.30-17.58.12:609][749]LogExit: Exiting.
+[2025.09.30-17.58.12:702][749]Log file closed, 09/30/25 13:58:12
